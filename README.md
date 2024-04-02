@@ -52,7 +52,12 @@ The method uses cv2.HoughCircles or cv2.findContours to detect clocks, then cv2.
 
 10. **Step 10: Draw Time on Image**
    - Draw time on Image
-
+---
+TEST
+To test the clock time extraction functions on 10 images, run the following command:
+python clock_time_extraction.py images/ adjusted_images/
+This command will process the clock images located in the images/ directory and save the adjusted clock images in the adjusted_images/ directory.
+Make sure to replace images/ and adjusted_images/ with the actual paths to your input and output directories.
 ---
 **Author:** TrietCS  
 **Course:** Introduction to Digital Image Processing
