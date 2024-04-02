@@ -51,7 +51,7 @@ The method uses cv2.HoughCircles or cv2.findContours to detect clocks, then cv2.
    - Calculate time from hand angles.
 
 10. **Step 10: Draw Time on Image**
-   - Format output for README.md.
+   - Draw time on Image
 
 ---
 **Author:** TrietCS  
