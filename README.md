@@ -19,6 +19,7 @@ The method uses cv2.HoughCircles or cv2.findContours to detect clocks, then cv2.
    - Invert HSV color to enhance contrast.
    - Apply Otsu thresholding to HSV channel V for binary image.
    - Gaussian blur to reduce noise.
+     
 
 2. **Step 2: Clock Detection**
    - Use cv2.HoughCircles or cv2.findContours.
@@ -52,10 +53,6 @@ The method uses cv2.HoughCircles or cv2.findContours to detect clocks, then cv2.
 
 10. **Step 10: Draw Time on Image**
    - Draw time on Image
-
-### Chapter 2: EXPERIMENTAL STEPS AND RESULTS
-#### 2.1 Experimental steps
-Clock image to run in this test case.
 
 ---
 ### TEST
